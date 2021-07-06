@@ -13,6 +13,6 @@ def multiple_letter_count(phrase):
     return letter_freq
 
 
-print( multiple_letter_count( "Love"))
+
 
 

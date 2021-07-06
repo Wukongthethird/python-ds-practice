@@ -12,4 +12,3 @@ def last_element(lst):
     
     return lst[-1]
 
-print( last_element( [    ]     ))
