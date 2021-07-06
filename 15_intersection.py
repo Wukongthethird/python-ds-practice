@@ -13,3 +13,5 @@ def intersection(l1, l2):
         >>> intersection([1, 2, 3], [4, 5, 6])
         []
     """
+
+    return [ele for ele in l1 if ele in l2]
