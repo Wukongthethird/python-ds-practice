@@ -7,3 +7,7 @@ def list_check(lst):
         >>> list_check([[1], "nope"])
         False
     """
+    for sublist in lst:
+        if type(sublist) is not list:
+            return False
+    return True

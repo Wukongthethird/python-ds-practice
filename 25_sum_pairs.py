@@ -21,3 +21,14 @@ def sum_pairs(nums, goal):
         >>> sum_pairs([11, 20, 4, 2, 1, 5], 100)
         ()
     """
+    tuplers = 0
+    reverse_nums =  nums.reverse()
+    #currInd = len(reverse_nums)
+    #for index, elem in enumerate(reverse_nums):  
+    #    currInd = index
+    #    for val in range(len):
+    #        if elem + val == goal:
+    #            tuplers = ( elem, val)
+    #        currInd -=1
+
+
