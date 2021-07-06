@@ -27,15 +27,14 @@ def sum_pairs(nums, goal):
     final_ind = len(nums)
 
     curr_ind = 0
-    for index, elem in enumerate(nums):  
+
+    for index in range(len(nums)):  
         curr_ind  = index
         for inner_index in range(curr_ind,final_ind):
-            if elem + nums[inner_index] == goal:
-                tuplers = [elem , nums[inner_index]]
+            if nums[index] + nums[inner_index] == goal:
+                tuplers = ( nums[inner_index] , nums[index])
 
-    
-    tuplers = tuplers[::-1]
-    return tuple(tuplers)
+    return tuplers
 
 
         
